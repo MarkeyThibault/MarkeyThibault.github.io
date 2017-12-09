@@ -171,10 +171,6 @@ h2 {
         width: 100%;
     }
 
-    .starships {
-        margin-top: -10%;
-    }
-
 }
 
 @media screen and (min-width: 1200px) {
@@ -203,11 +199,6 @@ h2 {
     .starships, .movies {
         width: 30%;
     }
-
-    .starships {
-        margin-top: -1.5%;
-    }
-}
 
 /*.result {
     max-width: ;
