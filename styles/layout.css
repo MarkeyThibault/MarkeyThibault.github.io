@@ -169,6 +169,9 @@ h2 {
 
     .starships, .movies {
         width: 100%;
+    }
+
+    .starships {
         margin-top: -10%;
     }
 
@@ -199,7 +202,6 @@ h2 {
 
     .starships, .movies {
         width: 30%;
-        margin-top: 0px;
     }
 
     .starships {
