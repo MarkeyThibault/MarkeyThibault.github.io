@@ -143,14 +143,14 @@ h2 {
 @media screen and (min-width: 480px) {
 
     body {
-        font-size: 68px;
-
+        font-size: 78px;
     }
 
     .content {
         height: 100%;
         text-align: center;
         overflow: scroll;
+        font-size: 38px;
     }
 
     .leftside, .bio {
@@ -163,10 +163,20 @@ h2 {
     .bio {
         margin-left: 0px;
         margin-top: 5%;
+        font-size: 120px;
     }
 
     .bio > p {
     margin-bottom: 5%;
+    font-size: 36px;
+    }
+
+    .bio > h1 {
+    font-size: 48px;
+    }
+
+    .leftside > p {
+        font-size: 36px;
     }
 
     .divider {
@@ -184,8 +194,8 @@ h2 {
         background-image: url('images/searchicon.png');
         font-size: 48px;
         padding-left: 10%;
-        background-size: 75px 75px;
-        background-position: 10px 10px; 
+        background-size: 65px 65px;
+        background-position: 15px 15px; 
     }
 
 }
