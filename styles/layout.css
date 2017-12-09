@@ -189,7 +189,7 @@ h2 {
     }
 
     input[type=text] {
-        width: 100%;
+        width: 90%;
         height: 100px;
         background-image: url('images/searchicon.png');
         font-size: 48px;
