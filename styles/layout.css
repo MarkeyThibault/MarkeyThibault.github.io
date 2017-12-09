@@ -178,6 +178,11 @@ h2 {
         width: 100%;
     }
 
+    .searchbar {
+        width: 75%;
+        height: 10%;
+    }
+
 }
 
 @media screen and (min-width: 1200px) {
