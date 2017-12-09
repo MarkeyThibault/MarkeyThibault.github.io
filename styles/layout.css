@@ -179,8 +179,8 @@ h2 {
     }
 
     .searchbar {
-        width: 75%;
-        height: 10%;
+        height: 100px;
+        width: 400px;
     }
 
 }
