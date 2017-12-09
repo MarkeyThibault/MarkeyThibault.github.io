@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styles/layout.css" />
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+
+	<div align="center" class="searchbar">
+  			<input type="text" class="input__text" name="search" placeholder="Search..">
+  			<div class="checkboxes">
+  				<input class="biocheckbox" type="checkbox" name="Bio" value="Bio" onchange="BioChanged()" checked>Bio
+  				<input class="starshipscheckbox" type="checkbox" name="Starships" value="Starships" onchange="StarshipsChanged()" checked>Starship
+  				<input class="moviescheckbox" type="checkbox" name="Movies" value="Movies" onchange="MoviesChanged()" checked>Movies
+  			</div>
+	</div>
+
+	<!-- <div class="result"><div class="loader"></div></div> -->
+
+	<div class="content">
+
+		<div class="placeholder">
+			<h1>Enter a character name!</h1>
+		</div>
+		
+		<div class="leftside">
+			<image class="characterimg" id="characterimg" src="styles/images/characters/test.jpg" />
+			<p><i>An artistic representation of <p id="character_name_img"></p></i></p>
+		</div>
+
+		<div class="divider">
+
+		</div>
+
+		<div class="bio">
+			<h1 id="character_name"></h1>
+			<p>Specie: <span id="specie"></span></p>
+			<p>Gender: <span id="gender"></span></p>
+			<p>Height: <span id="height"></span></p>
+			<p>Weight: <span id="weight"></span></p>
+			<p>Birth year: <span id="birthyear"></span></p>
+			<p>Homeworld: <span id="planet"></span></p>
+		</div>
+
+		<div class="starships">
+			<h2 id="starship_name"></h2>
+			<image class="starshipimg" id="starshipimg" src="" />
+		</div>
+
+		<div class="movies">
+			<h2 id="movies_title">Movies:</h2>
+			<p id="movie1"></p>
+			<p id="movie2"></p>
+			<p id="movie3"></p>
+			<p id="movie4"></p>
+			<p id="movie5"></p>
+			<p id="movie6"></p>
+			<p id="movie7"></p>
+		</div>
+
+	</div>
+
+	<script src="script/script.js"></script>
+
+</body>
+</html>
