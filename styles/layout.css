@@ -178,8 +178,14 @@ h2 {
         width: 100%;
     }
 
-    .searchbar {
+    input[type=text] {
         width: 100%;
+        height: 100px;
+        background-image: url('images/searchicon.png');
+        font-size: 48px;
+        padding-left: 10%;
+        background-size: 75px 75px;
+        background-position: 10px 10px; 
     }
 
 }
