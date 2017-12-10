@@ -15,6 +15,36 @@ body {
     margin-top: 20px;
 }
 
+.biobutton {
+    background-image: url("images/icons/Bio icon/Bio icon.png");
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+    margin-left: 28%;
+}
+
+.starshipbutton {
+    background-image: url("images/icons/Starfighter icon/Starfighter icon.png");
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+.moviebutton {
+    background-image: url("images/icons/Movies icon/Movie icon.png");
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
 .checkboxes {
     margin: 20px;
     width: 50%;
@@ -53,6 +83,7 @@ input[type=text] {
     font-size: 24px;
     height: 78%;
     min-width: 320px;
+    clear: left;
 }
 
 .bio > h1 {
