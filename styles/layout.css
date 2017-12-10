@@ -33,8 +33,6 @@ input[type=text] {
     background-position: 10px 10px; 
     background-repeat: no-repeat;
     padding: 12px 20px 12px 40px;
-    /*-webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;*/
 }
 
 .characterimg {
@@ -63,6 +61,7 @@ input[type=text] {
 
 .bio > p {
     font-size: 28px;
+    margin-bottom: 18%;
 }
 
 .leftside {
@@ -92,10 +91,6 @@ input[type=checkbox] + input[type=checkbox] {
 #character_name_img {
     color: #e15021;
     margin-top: -3.5%;
-}
-
-.bio > p {
-    margin-bottom: 18%;
 }
 
 .divider {
@@ -163,16 +158,15 @@ h2 {
     .bio {
         margin-left: 0px;
         margin-top: 5%;
-        font-size: 120px;
     }
 
     .bio > p {
-    margin-bottom: 5%;
-    font-size: 48px;
+        margin-bottom: 5%;
+        font-size: 48px;
     }
 
     .bio > h1 {
-    font-size: 64px;
+        font-size: 64px;
     }
 
     .leftside > p {
@@ -218,13 +212,23 @@ h2 {
         width: 25%;
     }
 
+    .leftside > p {
+        font-size: 24px;
+    }
+
     .bio {
         margin-left: 5%;
         text-align: left;
+        margin-top: 0%;
     }
 
     .bio > p {
-    margin-bottom: 18%;
+        margin-bottom: 18%;
+        font-size: 28px;
+    }
+
+    .bio > h1 {
+        font-size: 46px;
     }
 
     .divider {
@@ -234,7 +238,25 @@ h2 {
 
     .starships, .movies {
         width: 30%;
+        font-size: 22px;
     }
+
+    input[type=text] {
+    width: 33%;
+    height: 45px;
+    height: relative;
+    box-sizing: border-box;
+    border: 2px solid yellow;
+    border-radius: 4px;
+    font-size: 16px;
+    color: yellow;
+    background-color: black;
+    background-image: url('images/searchicon.png');
+    background-size: 20px 20px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
 
 /*.result {
     max-width: ;
