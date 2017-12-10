@@ -4,7 +4,7 @@
 	<meta charset="utf-8" />
 	<title>SW character browser</title>
 	<link rel="icon" href="styles/images/Website icon.png">
-	<link rel="stylesheet" type="text/css" href="styles/layout.css" />
+	<link rel="stylesheet" type="text/css" href="styles/layout-optimized.css" />
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 <body>
@@ -17,9 +17,9 @@
   		<!-- <input class="biocheckbox" type="checkbox" name="Bio" value="Bio" onchange="BioChanged()" checked>Bio
   		<input class="starshipscheckbox" type="checkbox" name="Starships" value="Starships" onchange="StarshipsChanged()" checked>Starship
   		<input class="moviescheckbox" type="checkbox" name="Movies" value="Movies" onchange="MoviesChanged()" checked>Movies -->
-  		<a onclick="BioChanged()"><div class="biobutton"></div></a>
-  		<a onclick="StarshipsChanged()"><div class="starshipbutton"></div></a>
-  		<a onclick="MoviesChanged()"><div class="moviebutton"></div></a>
+  		<a onclick="BioChanged()"><div class="biobutton" title="Toggle button voor bio"></div></a>
+  		<a onclick="StarshipsChanged()"><div class="starshipbutton" title="Toggle button voor starship"></div></a>
+  		<a onclick="MoviesChanged()"><div class="moviebutton"  title="Toggle button voor films"></div></a>
   	</div>
 
 	<!-- <div class="result"><div class="loader"></div></div> -->
@@ -67,7 +67,7 @@
 
 	</div>
 
-	<script src="script/script.js"></script>
+	<script src="script/script-optimized.js"></script>
 
 </body>
 </html>

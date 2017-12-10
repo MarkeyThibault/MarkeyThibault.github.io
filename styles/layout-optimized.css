@@ -1,0 +1,49 @@
+html, body{height:100%;}
+body{background-color:black;color:yellow;font-family:DIN, Helvetica, Arial, sans-serif;font-size:22px;background-image:url('images/Background.jpg');min-width:480;}
+.searchbar{margin-top:20px;}
+.biobutton{background-image:url("images/icons/Bio icon activated.png");width:100px;height:100px;float:left;margin-right:10%;margin-bottom:5%;margin-top:2%;transition:all 0.5s ease;}
+.starshipbutton{background-image:url("images/icons/Starfighter icon activated.png");width:100px;height:100px;float:left;margin-right:10%;margin-bottom:5%;margin-top:2%;transition:all 0.5s ease;}
+.moviebutton{background-image:url("images/icons/Movie icon activated.png");width:100px;height:100px;float:left;margin-bottom:5%;margin-top:2%;transition:all 0.5s ease;}
+.biobutton:hover{background-image:url("images/icons/Bio icon activated.png");width:100px;height:100px;float:left;margin-right:10%;margin-bottom:5%;margin-top:2%;transition:all 0.5s ease;cursor:pointer;}
+.starshipbutton:hover{background-image:url("images/icons/Starfighter icon activated.png");width:100px;height:100px;float:left;margin-right:10%;margin-bottom:5%;margin-top:2%;transition:all 0.5s ease;cursor:pointer;}
+.moviebutton:hover{background-image:url("images/icons/Movie icon activated.png");width:100px;height:100px;float:left;margin-bottom:5%;margin-top:2%;transition:all 0.5s ease;cursor:pointer;}
+.checkboxes{margin:0 auto;width:400px;}
+input[type=text]{width:33%;box-sizing:border-box;border:2px solid yellow;border-radius:4px;font-size:16px;color:yellow;background-color:black;background-image:url('images/searchicon.png');background-size:20px 20px;background-position:10px 10px;background-repeat:no-repeat;padding:12px 20px 12px 40px;margin-bottom:10px;}
+.characterimg{width:75%;max-height:540px;max-width:320px;}
+.content{background-color:#282727;padding:30px;margin:20px;margin-left:100px;margin-right:100px;color:white;display:block;overflow:hidden;font-size:24px;height:78%;min-width:320px;clear:left;}
+.bio > h1{margin:0px;}
+.bio > p{font-size:28px;margin-bottom:18%;}
+.leftside{width:25%;text-align:center;float:left;}
+.leftside > p{font-size:24px;}
+.bio{float:left;margin-left:5%;}
+.bio > h1{color:#e15021;font-size:46px;}
+input[type=checkbox] + input[type=checkbox]{margin-left:5%;}
+#character_name_img{color:#e15021;margin-top:-3.5%;}
+.divider{background-color:#e15021;width:0.1%;margin-left:5%;float:left;height:100%;}
+.starships{text-align:center;float:right;width:30%;margin-left:5%;margin-top:-1.5%;}
+.starshipimg{width:60%;}
+h2{color:#e15021;}
+.movies{width:30%;float:right;margin-left:5%;text-align:center;font-size:22px;}
+.placeholder{text-align:center;margin-top:20%;color:#e15021;}
+#movies_title{margin-bottom:-2.5%;}
+@media screen and (min-width:480px){body{font-size:78px;}
+.content{height:100%;text-align:center;overflow:scroll;font-size:38px;}
+.leftside, .bio{float:none;text-align:center;width:100%;margin:none;}
+.bio{margin-left:0px;margin-top:5%;}
+.bio > p{margin-bottom:5%;font-size:48px;}
+.bio > h1{font-size:64px;}
+.leftside > p{font-size:48px;}
+.divider{visibility:hidden;height:0px;}
+.starships, .movies{width:100%;font-size:48px;}
+input[type=text]{width:90%;height:100px;background-image:url('images/searchicon.png');font-size:48px;padding-left:10%;background-size:65px 65px;background-position:15px 15px;}
+}
+@media screen and (min-width:1080px){body{font-size:22px;}
+.content{height:78%;text-align:left;overflow:hidden;}
+.leftside, .bio{float:left;width:25%;}
+.leftside > p{font-size:24px;}
+.bio{margin-left:5%;text-align:left;margin-top:0%;}
+.bio > p{margin-bottom:18%;font-size:28px;}
+.bio > h1{font-size:46px;}
+.divider{visibility:visible;height:100%;}
+.starships, .movies{width:30%;font-size:22px;}
+input[type=text]{width:33%;height:45px;height:relative;box-sizing:border-box;border:2px solid yellow;border-radius:4px;font-size:16px;color:yellow;background-color:black;background-image:url('images/searchicon.png');background-size:20px 20px;background-position:10px 10px;background-repeat:no-repeat;padding:12px 20px 12px 40px;}
