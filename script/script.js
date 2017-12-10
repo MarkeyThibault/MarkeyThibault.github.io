@@ -108,26 +108,35 @@ function getMovie(input, count) {
 
 function BioChanged()
 {
-    if($('.biocheckbox').is(":checked"))   
-        $(".bio").show();
-    else
-        $(".bio").hide();
+	if ($(".bio").is(":visible") == true) {
+		$(".bio").hide();
+		$(".biobutton").css("background-image", "url('styles/images/icons/Bio icon/Bio icon.png')");
+	} else {
+		$(".bio").show();
+		$(".biobutton").css("background-image", "url('styles/images/icons/Bio icon/Bio icon activated.png')");
+	}
 }
 
 function StarshipsChanged()
 {
-    if($('.starshipscheckbox').is(":checked"))   
-        $(".starships").show();
-    else
-        $(".starships").hide();
+    if ($(".starships").is(":visible") == true) {
+		$(".starships").hide();
+		$(".starshipbutton").css("background-image", "url('styles/images/icons/Starfighter icon/Starfighter icon.png')");
+	} else {
+		$(".starships").show();
+		$(".starshipbutton").css("background-image", "url('styles/images/icons/Starfighter icon/Starfighter icon activated.png')");
+	}
 }
 
 function MoviesChanged()
 {
-    if($('.moviescheckbox').is(":checked"))   
-        $(".movies").show();
-    else
-        $(".movies").hide();
+    if ($(".movies").is(":visible") == true) {
+		$(".movies").hide();
+		$(".moviebutton").css("background-image", "url('styles/images/icons/Movies icon/Movie icon.png')");
+	} else {
+		$(".movies").show();
+		$(".moviebutton").css("background-image", "url('styles/images/icons/Movies icon/Movie icon activated.png')");
+	}
 }
 
 var input = document.querySelector('.input__text');

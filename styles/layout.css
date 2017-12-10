@@ -16,32 +16,35 @@ body {
 }
 
 .biobutton {
-    background-image: url("images/icons/Bio icon/Bio icon.png");
+    background-image: url("images/icons/Bio icon/Bio icon activated.png");
     width: 100px;
     height: 100px;
     float: left;
     margin-right: 5%;
     margin-bottom: 5%;
     margin-top: 2%;
+    transition: all 0.5s ease;
 }
 
 .starshipbutton {
-    background-image: url("images/icons/Starfighter icon/Starfighter icon.png");
+    background-image: url("images/icons/Starfighter icon/Starfighter icon activated.png");
     width: 100px;
     height: 100px;
     float: left;
     margin-right: 5%;
     margin-bottom: 5%;
     margin-top: 2%;
+    transition: all 0.5s ease;
 }
 
 .moviebutton {
-    background-image: url("images/icons/Movies icon/Movie icon.png");
+    background-image: url("images/icons/Movies icon/Movie icon activated.png");
     width: 100px;
     height: 100px;
     float: left;
     margin-bottom: 5%;
     margin-top: 2%;
+    transition: all 0.5s ease;
 }
 
 .checkboxes {
