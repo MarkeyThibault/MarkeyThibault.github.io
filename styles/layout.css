@@ -16,7 +16,7 @@ body {
 }
 
 .biobutton {
-    background-image: url("images/icons/Bio icon/Bio icon activated.png");
+    background-image: url("images/icons/Bio icon activated.png");
     width: 100px;
     height: 100px;
     float: left;
@@ -27,7 +27,7 @@ body {
 }
 
 .starshipbutton {
-    background-image: url("images/icons/Starfighter icon/Starfighter icon activated.png");
+    background-image: url("images/icons/Starfighter icon activated.png");
     width: 100px;
     height: 100px;
     float: left;
@@ -38,7 +38,7 @@ body {
 }
 
 .moviebutton {
-    background-image: url("images/icons/Movies icon/Movie icon activated.png");
+    background-image: url("images/icons/Movie icon activated.png");
     width: 100px;
     height: 100px;
     float: left;

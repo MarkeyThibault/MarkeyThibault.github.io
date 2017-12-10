@@ -110,10 +110,10 @@ function BioChanged()
 {
 	if ($(".bio").is(":visible") == true) {
 		$(".bio").hide();
-		$(".biobutton").css("background-image", "url('styles/images/icons/Bio icon/Bio icon.png')");
+		$(".biobutton").css("background-image", "url('styles/images/icons/Bio icon.png')");
 	} else {
 		$(".bio").show();
-		$(".biobutton").css("background-image", "url('styles/images/icons/Bio icon/Bio icon activated.png')");
+		$(".biobutton").css("background-image", "url('styles/images/icons/Bio icon activated.png')");
 	}
 }
 
@@ -121,10 +121,10 @@ function StarshipsChanged()
 {
     if ($(".starships").is(":visible") == true) {
 		$(".starships").hide();
-		$(".starshipbutton").css("background-image", "url('styles/images/icons/Starfighter icon/Starfighter icon.png')");
+		$(".starshipbutton").css("background-image", "url('styles/images/icons/Starfighter icon.png')");
 	} else {
 		$(".starships").show();
-		$(".starshipbutton").css("background-image", "url('styles/images/icons/Starfighter icon/Starfighter icon activated.png')");
+		$(".starshipbutton").css("background-image", "url('styles/images/icons/Starfighter icon activated.png')");
 	}
 }
 
@@ -132,10 +132,10 @@ function MoviesChanged()
 {
     if ($(".movies").is(":visible") == true) {
 		$(".movies").hide();
-		$(".moviebutton").css("background-image", "url('styles/images/icons/Movies icon/Movie icon.png')");
+		$(".moviebutton").css("background-image", "url('styles/images/icons/Movie icon.png')");
 	} else {
 		$(".movies").show();
-		$(".moviebutton").css("background-image", "url('styles/images/icons/Movies icon/Movie icon activated.png')");
+		$(".moviebutton").css("background-image", "url('styles/images/icons/Movie icon activated.png')");
 	}
 }
 
